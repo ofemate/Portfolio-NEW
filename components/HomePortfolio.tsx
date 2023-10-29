@@ -46,7 +46,7 @@ const HomePortfolio = (props: Props) => {
               fill
               className="shadowImg"
             />
-            <div className="shadowImg absolute bottom-0 left-0 w-full h-full bg-black group:hover:hidden"></div>
+            <div className="shadowImg absolute bottom-0 left-0 w-full h-full bg-black"></div>
           </div>
         ))}
       </div>
