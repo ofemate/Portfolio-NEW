@@ -50,7 +50,7 @@ const HomePortfolio = (props: Props) => {
           </div>
         ))}
       </div>
-      <div className="w-full flex justify-center items-center mt-16">
+      <div className="w-full flex justify-center items-center mt-6 lg:mt-16">
         <Link
           href={"/portfolio"}
           className="text-[#D4D4D5] md:text-3xl flex flex-col items-center"

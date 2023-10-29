@@ -5,7 +5,7 @@ type Props = {};
 
 const Hero = (props: Props) => {
   return (
-    <div className="w-full lg:py-[300px] lg:px-28 py-10 px-2 flex">
+    <div className="w-full py-6 lg:py-[300px] lg:px-28 px-2 flex">
       <div className="z-50 relative lg:ml-32">
         <h1 className="text-[#161519] lg:text-7xl font-semibold text-xl">
           ÖmerFarukErdoğan

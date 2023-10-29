@@ -69,7 +69,7 @@ const Header = (props: Props) => {
   return (
     <header
       className={cn(
-        "w-full flex justify-center bg-transparent pt-14 z-[51]",
+        "w-full flex justify-center bg-transparent pt-4 lg:pt-14 z-[51]",
         pathname === "/portfolio" ? "bg-[#161519]" : ""
       )}
     >
