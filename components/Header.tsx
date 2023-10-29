@@ -64,7 +64,6 @@ const components: { title: string; href: string; description: string }[] = [
 
 const Header = (props: Props) => {
   const pathname = usePathname();
-  console.log(pathname);
 
   return (
     <header
