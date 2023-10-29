@@ -93,7 +93,7 @@ main {
 }
 
 .shadowImgParent:hover .shadowImg {
-  @apply bg-none;
+  @apply opacity-0;
 }
 
 .shadowImgParent:hover {
