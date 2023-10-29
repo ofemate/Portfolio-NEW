@@ -52,7 +52,7 @@ const PortfolioPage = (props: Props) => {
                   src={item.src}
                   alt="Picture of the author"
                   fill
-                  className="shadowImg"
+                  className=""
                 />
                 <div className="shadowImg absolute bottom-0 left-0 w-full h-full bg-black "></div>
               </div>
