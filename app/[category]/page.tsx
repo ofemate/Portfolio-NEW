@@ -42,7 +42,7 @@ const PortfolioPage = (props: Props) => {
     <div className="w-full bg-[#161519] p-10">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:mt-2 lg:mt-16 md:mx-10 lg:mx-24">
         {portfolio.map((item, index) => (
-          <Dialog>
+          <Dialog key={index}>
             <DialogTrigger>
               <div
                 className="relative w-full aspect-square hover:scale-110 transition-all duration-500 ease-in-out shadowImgParent"

@@ -21,8 +21,11 @@ const AboutSkills = (props: Props) => {
           Neler <br /> Yapıyorum?
         </h2>
         <div className="mt-8 grid grid-cols-1 md:grid-cols-2 md:w-1/2">
-          {skills.map((skill) => (
-            <p className="text-[#F7F7F7] md:text-2xl text-lg flex items-center gap-2">
+          {skills.map((skill, index) => (
+            <p
+              className="text-[#F7F7F7] md:text-2xl text-lg flex items-center gap-2"
+              key={index}
+            >
               <ChevronRight className="text-[#6100A5]" /> {skill}
             </p>
           ))}
