@@ -8,6 +8,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
+import Bubbles from "@/components/Bubbles";
 
 type Props = {};
 
@@ -39,7 +40,7 @@ const PortfolioPage = (props: Props) => {
     },
   ];
   return (
-    <div className="w-full bg-[#161519] p-10">
+    <div className="w-full bg-[#161519] p-10 relative">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:mt-2 lg:mt-16 md:mx-10 lg:mx-24">
         {portfolio.map((item, index) => (
           <Dialog key={index}>

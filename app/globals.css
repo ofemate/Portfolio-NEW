@@ -70,16 +70,13 @@
   * {
     @apply border-border;
   }
+  html,
   body {
-    @apply bg-background text-foreground;
+    overflow-x: hidden !important;
   }
-}
-
-body {
-  background-color: #f3f3f3;
-  max-width: 100%;
-  overflow-x: hidden !important;
-  @apply flex flex-col min-h-screen;
+  body {
+    @apply bg-[#f3f3f3] text-foreground flex flex-col min-h-screen;
+  }
 }
 
 main {
